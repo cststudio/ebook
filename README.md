@@ -50,7 +50,7 @@
 ## Makefile
 ### 基本内容
 （介绍makefile基础内容、执行shell）
-### Makefile实例
+### Makefile模板实例
 ## 小结
 
 # 二进制工具
@@ -70,6 +70,10 @@
 ## 编码规范
 ## helloworld全面追踪
 
+# 移植总览
+## 必备技能
+## 阅读芯片手册
+
 # bootloader移植
 ## u-boot
 ### u-boot概述
@@ -81,7 +85,10 @@
 ### coreboot在qemu环境的启动
 
 # Linux内核移植
-## 内核移植基本步骤
+## 内核配置编译
+## 新加内核驱动
+## 代码配合芯片手册
+WDT、RTC
 
 # rootfs移植
 ## rootfs概述
@@ -91,5 +98,10 @@
 ## debootstrap
 
 # Linux驱动开发
-## 
-
+## 驱动分类概述
+## platform设备驱动模板实例
+## platform设备驱动流程跟踪
+## 字符设备驱动流程跟踪
+## GPIO驱动
+## 打通用户空间与内核空间
+sys、proc文件系统驱动示例  
