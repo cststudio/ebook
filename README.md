@@ -27,16 +27,22 @@
 ## Linux系统目录
 ### Linux目录结构介绍
 ### /proc目录、/sys目录
+（与后面内核驱动开发有关联）
 ## Linux命令
-### 命令分类
-### 编辑器类
-### 命令行使用技巧
-### 简单shell用法
-### 系统配置
+### 编辑器相关命令
+### 编译相关命令
+### 系统相关命令
+### 其它命令
+### man命令
+### 命令使用经验
+## shell使用
+## 系统配置
 （环境变量、/etc/文件配置（issue显示字符串、主机别名(lserver)））
+## 更新Linux内核
 ### 深入掌握Linux结构
 （LFS、debootstrap）
 ## 扩展思考
+（讲如何慢慢积累命令行）
 ## 本章小结
 
 # 嵌入式Linux开发环境搭建
@@ -106,11 +112,19 @@
 
 # Linux系统自动化编译和Makefile
 ## Linux下工具、库编译方法
+### 下载源码
+### 编译三步曲
+### 编译配置实例
+## 安装交叉编译器
+### 直接使用现成的工具
+### 自行制作交叉编译器
+
 ## autotool工具集
 （参考http://www.linuxprobe.com/system-gnu-autotool.html ）  
 ## Makefile
 ### Makefile基础知识
-（介绍makefile基础内容、执行shell）
+（介绍makefile基础内容）
+### 在Makefile中执行shell命令
 ### Makefile模板实例
 ## 扩展思考
 ## 本章小结
@@ -178,9 +192,12 @@
 # rootfs移植
 ## rootfs概述
 ## busybox
+（注意说明与前面的linux目录的联系和差异）
 ### busybox编译
-### 在qemu挂载busybox
+## 制作ramdisk镜像
+## 在qemu挂载rootfs
 ## 扩展思考
+（描述其它格式的images制作）
 ## 本章小结
 
 # Linux驱动开发
