@@ -44,13 +44,17 @@
 工欲善其事，必先利其器  
 （描述编写代码、编译代码、运行代码过程） 
 ## Windows系统所需工具
+### 综合类
+### 编辑类
+### 连接工具类
 （source insight、notepad++、secureCRT）
 ## Linux系统所需服务
 （前面已经安装好Linux系统）
 ### SSH
-### FTP
 ### Samba
 ### NFS
+### FTP
+### Telnet
 ## 扩展思考
 ## 本章小结
 （固定好IP地址，设置好这些服务，本书一直会使用）
@@ -70,7 +74,7 @@
 ## Windows系统下TortoiseGit的安装
 ## Linux系统下Git的安装
 ## 入门使用
-（建立仓库、克隆仓库、提交仓库、查看修改、撤销修改）  
+（填写账号和邮箱，建立仓库、克隆仓库、提交仓库、查看修改、撤销修改）  
 ## Linux系统下Git服务器搭建
 ### Git服务器搭建过程
 ### Git权限控制
@@ -97,7 +101,7 @@
 ## Git应用实践经验
 （介绍个人实际使用Git的经验）
 ## 扩展思考
-（自行搭建本地gitlab仓库、参与github开源项目）
+（自行搭建本地gitlab仓库、参与github开源项目、使用Gerrit）
 ## 本章小结
 
 # Linux系统自动化编译和Makefile
@@ -121,28 +125,37 @@
 ### objcopy
 ### readelf
 ## ELF格式
+## 扩展思考
+## 本章小结
 
 # 应用程序开发
 ## 概述
 ## Linux应用层模块分类
 ## 编码规范
 ## helloworld全面追踪
+## 扩展思考
+## 本章小结
 
 # 调试手段
 ## printf打印
 ## 从代码源码把控
 ## coredump调试
+## 扩展思考
+## 本章小结
 
 # (第四部分 嵌入式Linux移植篇)
 
 # 嵌入式Linux移植总览
-## 所需技能
+## 学习所需技能
+### 
 ## 如何阅读芯片手册
 ## 宿主机与目标板共享的几种方式
 ### NFS
 ### SSH
 ### FTP
 ### 硬件介质：U盘和SD卡
+## 扩展思考
+## 本章小结
 
 # bootloader移植
 ## u-boot
@@ -153,25 +166,32 @@
 ## coreboot
 ### coreboot概述
 ### coreboot在qemu环境的启动
+## 扩展思考
+## 本章小结
 
 # Linux内核移植
 ## 内核配置编译
 ## 新加内核驱动
-## 代码配合芯片手册
-WDT、RTC
+## 扩展思考
+## 本章小结
 
 # rootfs移植
 ## rootfs概述
 ## busybox
 ### busybox编译
 ### 在qemu挂载busybox
-## debootstrap
+## 扩展思考
+## 本章小结
 
 # Linux驱动开发
 ## 驱动分类概述
+## 代码配合芯片手册
+WDT、RTC
 ## platform设备驱动模板实例
 ## platform设备驱动流程跟踪
 ## 字符设备驱动流程跟踪
 ## GPIO驱动
 ## 打通用户空间与内核空间
 sys、proc文件系统驱动示例  
+## 扩展思考
+## 本章小结
