@@ -113,14 +113,14 @@ github gitlab bitbucket gitee
 ### 编译配置实例
 ## autotool工具集
 （参考http://www.linuxprobe.com/system-gnu-autotool.html ）  
+## 安装交叉编译器
+### 直接使用现成的交叉编译器
+### 自行制作交叉编译器
 ## Makefile
 ### Makefile基础知识
 （介绍makefile基础内容）
 ### 在Makefile中执行shell命令
 ### Makefile模板实例
-## 安装交叉编译器
-### 直接使用现成的交叉编译器
-### 自行制作交叉编译器
 ## 扩展思考
 ## 本章小结
 
@@ -144,6 +144,9 @@ github gitlab bitbucket gitee
 原则：入乡随俗
 ### 编程原则
 ## Linux应用层模块分类
+### 多进程编程
+### 多线程编程
+### 串口编程
 ## helloworld全面追踪
 ## 扩展思考
 ## 本章小结
