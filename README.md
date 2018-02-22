@@ -1,4 +1,4 @@
-# ebook
+# 嵌入式Linux入门与实践
 
 # 前言
 介绍编写本书初衷，包括什么内容，本书不具备什么内容，适用读者，勘误表地址、联系方式。
@@ -108,7 +108,7 @@ github gitlab bitbucket gitee
 ## Git应用实践经验
 （介绍个人实际使用Git的经验）
 ## 扩展思考
-（自行搭建本地gitlab仓库、参与github开源项目、使用Gerrit）
+（自行搭建本地git仓库(gitlab)、参与github开源项目、使用Gerrit）
 ## 本章小结
 
 # 第6章 Linux系统自动化编译和Makefile
@@ -219,7 +219,11 @@ github gitlab bitbucket gitee
 ## busybox
 （注意说明与前面的linux目录的联系和差异）
 ### busybox编译
-## 制作ramdisk镜像
+## 构建Linux根文件系统
+### /bin目录
+### /etc目录
+### /lib目录
+## 制作ramdisk镜像文件
 ## 在qemu挂载rootfs
 ## 扩展思考
 （描述其它格式的images制作）
@@ -240,5 +244,6 @@ github gitlab bitbucket gitee
 ### sys文件系统
 ### proc文件系统
 注：sys、proc文件系统驱动示例  
+## Linux驱动常见错误
 ## 扩展思考
 ## 本章小结
