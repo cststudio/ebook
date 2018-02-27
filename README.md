@@ -109,7 +109,7 @@ deb包 apt-get install 源码编译
 ### 6.2.2 编译
 ### 6.2.3 汇编
 ### 6.2.4 链接
-## 6.3 Linux二进制工具
+## 6.3 Linux二进制工具(Binutils)
 ### 6.3.1 ar
 ### 6.3.2 nm
 ### 6.3.3 strings
@@ -117,6 +117,7 @@ deb包 apt-get install 源码编译
 ### 6.3.5 objcopy
 ### 6.3.6 objdump
 ### 6.3.7 readelf
+### 6.3.8 ld
 ## 6.4 ELF格式
 ## 6.5 helloworld全面追踪——程序运行的过程
 ## 6.6 扩展思考
