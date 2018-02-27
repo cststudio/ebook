@@ -194,7 +194,7 @@ deb包 apt-get install 源码编译
 ### 10.1.3 u-boot在qemu环境的启动
 ### 10.1.4 u-boot启动流程图
 ### 10.1.5 在u-boot中新加命令
-### 10.1.6 u-boot进程空间示例
+### 10.1.6 u-boot进程空间
 ## 10.2 coreboot
 ### 10.2.1 coreboot概述
 ### 10.2.2 coreboot目录说明
