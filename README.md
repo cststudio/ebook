@@ -115,7 +115,8 @@ deb包 apt-get install 源码编译
 ### 6.3.3 strings
 ### 6.3.4 strip
 ### 6.3.5 objcopy
-### 6.3.6 readelf
+### 6.3.6 objdump
+### 6.3.7 readelf
 ## 6.4 ELF格式
 ## 6.5 helloworld全面追踪——程序运行的过程
 ## 6.6 扩展思考
